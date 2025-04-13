@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .div1{
+            background-color: bisque;height: 200px;width: 200px;
+            opacity: 0;
+            top: 0;
+            position: absolute;
+            transition: 0.5s ease;
+        }
+        .container:hover .div1 {
+            opacity: 1.0;
+        }
+        .container{
+            position: relative; width: 50%;
+        }
+
+        .div2{
+            background-color: rosybrown;height: 200px;width: 200px;
+            opacity: 0;
+            top: 0;
+            position: absolute;
+            transition: 0.5s ease;
+        }
+        .con:hover .div2{
+            opacity: 1.0;
+        }
+        .con{
+            position: relative; width: 50%; 
+            
+        }
+    
+    </style>
+</head>
+<body>
+    
+    <div class="container">
+    <img src="image2.jpg" height="200px" width="200px">
+    <div class="div1">Hello</div>
+    <div class="con">
+    <img src="image2.jpg" height="200px" width="200px">
+    <div class="div2">Hello</div>
+    </div>
+        
+    </div>
+</body>
+</html>

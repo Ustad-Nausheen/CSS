@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+
+
+            width: 400px;
+            height: 400px;
+            background: rgba(255, 0, 0, 0.308);
+            animation: abc 10s ease-in-out 5s infinite;
+            margin: 100px 150px 200px 300px;
+           
+        }
+        @keyframes abc {
+            0%{
+                transform:rotate(0deg);
+                border-radius: 50px;
+                background: radial-gradient(pink,black,gray);left: 0px;top: 0px;
+                
+            }
+            20%{
+                transform:rotate(45deg);
+                border-radius: 100px;
+                background: radial-gradient(orange,blue,white);left: 300px;top: 0px;
+                
+            }
+            50%{
+                transform:rotate3d(360deg);
+                border-radius: 100px;
+                background: radial-gradient(silver,pink,gray);left: 200px;top: 300px;
+                
+            }
+            50%{
+                transform:scale3d(90deg);
+                border-radius: 100px;
+                background: radial-gradient(red,green,blue);left: 0px;top: 200px;
+                
+            }
+            60%{
+                transform:scale3d(90deg);
+                border-radius: 100px;
+                background: radial-gradient(orange,white,green);left: 0px;top: 200px;
+                
+            }
+            80%{
+                transform:scale3d(90deg);
+                border-radius: 100px;
+                background: radial-gradient(black,purple,blue);left: 0px;top: 200px;
+                
+            }
+
+            50%{
+                transform:scale3d(360deg);
+                border-radius: 100px;
+                background:radial-gradient(orange,green,pink);left: 0px;top: 200px;
+                
+            }
+            60%{
+                transform:scale3d(360deg);
+                border-radius: 100px;
+                background: radial-gradient(purple,pink,gray);left: 0px;top: 200px;
+                
+            }
+            80%{
+                transform:scale3d(360deg);
+                border-radius: 100px;
+                background: rgb(236, 232, 8);left: 0px;top: 200px;
+                
+            }
+            45%{
+                transform:scale3d(360deg);
+                border-radius: 100px;
+                background: radial-gradient(blue,yellow,black);left: 0px;top: 200px;
+                
+            }
+            50%{
+                transform:scale3d(360deg);
+                border-radius: 100px;
+                background:radial-gradient(red,pink,black);left: 0px;top: 200px;
+                
+            }
+        }
+
+    </style>
+</head>
+<body>
+   
+    <div><marquee width="100%" direction="left"></marquee></div>
+    <!-- <img src="image2.jpg" height="300px" width="300px"> -->
+</body>
+</html>

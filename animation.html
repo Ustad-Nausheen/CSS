@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            height: 100px; width: 100px; background-color: red;
+            position: relative;
+            animation: myfun 5s;
+        }
+        @keyframes myfun {
+            0%{background-color: red;top: 0px;left: 0px;}
+            25%{background-color: green;top: 0px;left: 300px;}
+            50%{background-color: orange;top: 300px;left: 300px;}
+            75%{background-color: blue;top: 300px;left: 0px;}
+            100%{background-color: red;top: 0px;left: 0px;}
+            }
+
+    </style>
+</head>
+<body>
+    <div></div>
+</body>
+</html>
